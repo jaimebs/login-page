@@ -1,0 +1,36 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, #fffbff, #e9ddec);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: blueviolet; */
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.image {
+  background: url("/assets/undraw_analysis_4jis.svg") no-repeat;
+  height: 100%;
+}
+
+.content__login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  background-color: blueviolet;
+  height: 500px;
+  width: 400px;
+  border-radius: 10px;
+}
