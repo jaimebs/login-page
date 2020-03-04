@@ -50,6 +50,10 @@
   font-size: 15px;
 }
 
+.login > input::placeholder {
+  color: #c2c1c1;
+}
+
 .login > button {
   margin-top: 39px;
   padding: 15px;
