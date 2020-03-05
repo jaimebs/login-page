@@ -2,26 +2,20 @@
   width: 100vw;
   height: 100vh;
   background-image: linear-gradient(to right, #fffbff, #d7aee2);
-}
 
-.content {
-  width: 100vw;
-  height: 100vh;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: center;
   align-items: center;
 }
 
 .image {
   width: 100%;
-  height: 95%;
+  height: 100%;
 }
 
-.content__login {
+.container__login {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .login {
